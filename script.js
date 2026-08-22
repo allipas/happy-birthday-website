@@ -37,13 +37,25 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 /* ---------- LOADING -> GIFT ---------- */
 window.addEventListener("load", () => {
-  setTimeout(() => {
-    loading.classList.add("fade-out");
+    const loading = document.getElementById("loadingScreen");
+    const gift = document.getElementById("giftScreen");
+
     setTimeout(() => {
-      loading.classList.add("hidden");
-      giftScreen.classList.remove("hidden");
-    }, 800);
-  }, 1800);
+        if (loading) {
+            loading.classList.add("fade-out");
+        }
+
+        setTimeout(() => {
+            if (loading) {
+                loading.classList.add("hidden");
+            }
+
+            if (gift) {
+                gift.classList.remove("hidden");
+            }
+        }, 700);
+
+    }, 1500);
 });
 
 /* ---------- GIFT ---------- */
