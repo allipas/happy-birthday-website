@@ -8,7 +8,7 @@ const CONFIG = {
   birthday: "AGUSTUS 23· THE MOST SPECIAL DAY",
   music: [
     { title: "Super Powers", artist: "Daniel Caesar", file: "assets/music/song1.mp3" },
-    { title: "Monokrom", artist: "Tulus", file: "assets/music/song2.mp3" },
+    { title: "tulus.mp3" },
     { title: "AH", artist: "Nadin Amizah", file: "assets/music/song3.mp3" }
   ]
 };
