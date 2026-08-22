@@ -236,6 +236,30 @@
   <!-- AUDIO -->
   <audio id="audioPlayer" preload="metadata"></audio>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
+
+<script>
+setTimeout(function () {
+    const loading = document.getElementById("loadingScreen");
+    const gift = document.getElementById("giftScreen");
+    const main = document.getElementById("mainContent");
+
+    if (loading) {
+        loading.classList.remove("active");
+        loading.classList.add("fade-out");
+        loading.style.display = "none";
+    }
+
+    if (gift) {
+        gift.classList.remove("hidden");
+        gift.style.display = "grid";
+    }
+
+    if (main) {
+        main.classList.add("hidden");
+    }
+}, 2500);
+</script>
+
 </body>
 </html>
