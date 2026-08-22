@@ -4,8 +4,8 @@
    ========================================================= */
 
 const CONFIG = {
-  name: "Florence",
-  birthday: "DECEMBER 29 · THE MOST SPECIAL DAY",
+  name: "Sonyawww",
+  birthday: "AGUSTUS 23· THE MOST SPECIAL DAY",
   music: [
     { title: "Super Powers", artist: "Daniel Caesar", file: "assets/music/song1.mp3" },
     { title: "Monokrom", artist: "Tulus", file: "assets/music/song2.mp3" },
